@@ -21,7 +21,7 @@ export function Categories() {
       <div className="container mx-auto px-4">
         <div className="mb-12 flex items-center justify-between">
           <h2 className="text-3xl font-bold text-foreground md:text-4xl">
-            Explore by <span className="text-primary">category</span>
+            Explore by <span className="text-accent">category</span>
           </h2>
           <Link href="#" className="flex items-center gap-2 text-primary hover:text-primary/80 transition">
             Show all jobs <ArrowRight size={18} />

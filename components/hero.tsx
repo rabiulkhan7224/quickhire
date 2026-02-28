@@ -18,7 +18,7 @@ export function Hero() {
           {/* Left Content */}
           <div>
             <h1 className="mb-4 text-4xl font-bold leading-tight md:text-5xl lg:text-6xl text-foreground">
-              Discover more than <span className="text-primary">5000+ Jobs</span>
+              Discover more than <span className="text-accent">5000+ Jobs</span>
             </h1>
 
             <p className="mb-8 text-lg text-muted-foreground">

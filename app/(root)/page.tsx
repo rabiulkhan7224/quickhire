@@ -1,6 +1,7 @@
 import { Categories } from "@/components/Categories";
 import { Companies } from "@/components/Companies";
 import { CTA } from "@/components/CTA";
+import { FeaturedJobs } from "@/components/FeaturedJobs";
 import { Hero } from "@/components/hero";
 
 export default function Home() {
@@ -10,6 +11,8 @@ export default function Home() {
       <Companies />
       <Categories />
       <CTA/>
+      <FeaturedJobs />
+
    </div>
   );
 }
