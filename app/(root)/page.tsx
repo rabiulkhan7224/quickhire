@@ -1,5 +1,6 @@
 import { Categories } from "@/components/Categories";
 import { Companies } from "@/components/Companies";
+import { CTA } from "@/components/CTA";
 import { Hero } from "@/components/hero";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Companies />
       <Categories />
+      <CTA/>
    </div>
   );
 }
