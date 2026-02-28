@@ -2,7 +2,7 @@ import { Navbar } from "@/components/navbar";
 
 export default function HomeLayout({children}: {children: React.ReactNode}) {
     return (
-        <section className="">
+        <section className="px-4">
             <Navbar />
             {children}
         </section>
